@@ -5,18 +5,18 @@
   --gren:#31D0AA;
   --slate:#434455;
   --light-slate:#8E8F99;
-  --cornflower:#E7E9FC;
+  --cornflower:#FFFFFF ;
   --cloud:#F4F4FD;
-  --navy-blue-modal:#2E2F42;
+  --navy-blue-modal:#434455;
   --grey:#2E2F42; 
   --white:#FFFFFF;
   --dairy:#FCFCFC;
 }
 
 body {
-  font-family:"Roboto";
+  font-family:"Roboto" sans-serif;
 	font-size: 16px;
-	line-height: 1,28;
+	line-height: 1.28;
   font-weight: 400;
   font-style: normal;
 	text-decoration: none;
@@ -73,14 +73,14 @@ text-decoration: none;
 }
 .heder-logo {
   color: var(--navy-blue);
-	font-size: 16px;
-	font-family: "Raleway";
-	font-weight: 900;
+	font-size: 18px;
+	font-family: "Raleway" sans-serif;
+	font-weight: 800;
 	font-style: normal;
-	line-height: 24px;
-	letter-spacing: 0.02em;
+	line-height: 1,17;
+	letter-spacing: 0.03em;
 	text-decoration: none;
-	text-transform: none;
+	text-transform: uppercase;
 }
 .heder-logo-color {
   color: var(--iris);
@@ -100,12 +100,14 @@ text-decoration: none;
 }
 .heder-link {
   font-size: 16px;
-	line-height: 1,5;
-  font-weight: 400;
+	line-height: 1.5;
+  font-weight: 500;
   font-style: normal;
+  letter-spacing: 0.02em;
   color: var(--navy-blue);
 }
 .heder-nav-contakt {
+  font-style: normal;
 
 }
 .heder-contakt-lisk {
@@ -116,7 +118,7 @@ text-decoration: none;
 }
 .heder-contakt-linc {
   font-size: 16px;
-	line-height: 1,5;
+	line-height: 1.5;
   font-weight: 400;
   color: var(--slate);
 }
@@ -132,10 +134,12 @@ text-decoration: none;
 .nero-title {
   font-size: 56px;
 	font-weight: 700;
-	line-height: 1,07;
+	line-height: 1.07;
 	letter-spacing: 0.02em;
 	text-decoration: none;
 	text-transform: none;
+
+  text-align: center;
 }
 .nero-btn {
   color:#FFFFFF;
@@ -158,14 +162,14 @@ text-decoration: none;
 .feature-item-title {
   font-size: 20px;
 	font-weight: 500;
-	line-height: 1,2;
+	line-height: 1.2;
 	letter-spacing: 0.02em;
 }
 .feature-text {
   color: var(--slate);
 
   font-size: 16px;
-	line-height: 1,33;
+	line-height: 1.33;
 	letter-spacing: 0.04em;
 	
 
@@ -180,7 +184,7 @@ text-decoration: none;
 .blok-photo-title {
   font-size: 36px;
 	font-weight: 700;
-	line-height: 1,1;
+	line-height: 1.1;
 	letter-spacing: 0.02em;
 	text-transform: capitalize;
 }
@@ -201,7 +205,7 @@ text-decoration: none;
 .team-section-title {
   font-size: 36px;
 	font-weight: 700;
-	line-height: 1,1;
+	line-height: 1.1;
 	letter-spacing: 0.02em;
 	text-transform: capitalize;
 }
@@ -214,7 +218,7 @@ text-decoration: none;
 .team-section-name {
   font-size: 20px;
 	font-weight: 500;
-	line-height: 1,2;
+	line-height: 1.2;
 	letter-spacing: 0.02em;
 
 }
@@ -234,25 +238,25 @@ text-decoration: none;
 }
 .footer-logo {
   color: var(--cloud);
-	font-size: 16px;
-	font-family: "Raleway";
-	font-weight: 900;
+	font-size: 18px;
+	font-family: "Raleway" sans-serif;
+	font-weight: 800;
 	font-style: normal;
-	line-height: 24px;
-	letter-spacing: 0.02em;
+	line-height: 1.17;
+	letter-spacing: 0.03em;
 	text-decoration: none;
-	text-transform: none;
+	text-transform: uppercase;
 }
 .footer-logo-color {
   color: var(--iris);
-	font-size: 16px;
+	font-size: 18px;
 	font-family: "Raleway";
-	font-weight: 900;
+	font-weight: 800;
 	font-style: normal;
 	line-height: 24px;
-	letter-spacing: 0.02em;
+	letter-spacing: 0.03em;
 	text-decoration: none;
-	text-transform: none;
+	text-transform: uppercase;
 
 }
 .footer-text {
@@ -272,7 +276,7 @@ text-decoration: none;
 .gallery-title {
   font-size: 36px;
 	font-weight: 700;
-	line-height: 1,1;
+	line-height: 1.1;
 	letter-spacing: 0.02em;
 	text-transform: capitalize;
 }
