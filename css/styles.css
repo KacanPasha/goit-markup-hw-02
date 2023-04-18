@@ -256,7 +256,7 @@ text-decoration: none;
 .footer-logo {
   color: var(--cloud);
 	font-size: 18px;
-	font-family: "Raleway" sans-serif;
+	font-family: "Raleway", sans-serif;
 	font-weight: 800;
 	font-style: normal;
 	line-height: 1.17;
@@ -267,7 +267,7 @@ text-decoration: none;
 .footer-logo-color {
   color: var(--iris);
 	font-size: 18px;
-	font-family: "Raleway";
+	font-family: "Raleway", sans-serif;
 	font-weight: 800;
 	font-style: normal;
 	line-height: 24px;
@@ -303,10 +303,31 @@ text-decoration: none;
   
 }
 .gallery-link {
+ cursor: pointer;
+
+ font-family: "Roboto", sans-serif;
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 1.5;
+ letter-spacing: 0.04em;
+
+ color: var(--iris);
+ background-color: var(--cloud)
 }
 .gallery-item-img {
 }
 .gallery-item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+
+  color: var(--grey);
 }
 .gallery-item-text {
+ font-size: 16px;
+ line-height: 1.5;
+ letter-spacing: 0.02em;
+
+ color: var(--navy-blue-modal);
 }
