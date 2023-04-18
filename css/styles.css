@@ -297,7 +297,9 @@ text-decoration: none;
 	letter-spacing: 0.02em;
 	text-transform: capitalize;
 }
-.gallery-lisk {
+.gallery-list {
+list-style: none;
+
 }
 .gallery-item {
   
