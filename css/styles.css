@@ -82,6 +82,7 @@ color: var(--white);
 }
 .heder-logo {
   color: var(--iris);
+
 	font-size: 18px;
 	font-family: "Raleway",sans-serif;
 	font-weight: 800;
@@ -92,7 +93,8 @@ color: var(--white);
 	text-transform: uppercase;
 }
 .heder-logo-color {
-  color: #2e2f42;
+  color: var(--navy-blue-modal);
+
 	font-size: 18px;
 	font-family: "Raleway";
 	font-weight: 800;
