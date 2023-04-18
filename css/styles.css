@@ -86,7 +86,7 @@ text-decoration: none;
 	text-transform: uppercase;
 }
 .heder-logo-color {
-  color: var(--grey);
+  color: var(--navy-blue);
 	font-size: 18px;
 	font-family: "Raleway";
 	font-weight: 800;
@@ -163,6 +163,9 @@ text-decoration: none;
   |============================
 */
 .feature {
+
+}
+.feature-title{
 
 }
 
